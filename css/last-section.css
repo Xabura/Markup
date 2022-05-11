@@ -1,0 +1,46 @@
+.last-section {
+  background-image: url("../assets/kitchen-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  margin-bottom: 7rem;
+  position: relative;
+}
+
+.last-section > div {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  color: white;
+}
+
+.last-section h1 {
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin: 1.5rem 0;
+}
+
+.last-section-div-element {
+  margin: 1rem auto;
+  background-color: white;
+  width: 20%;
+  height: 5px;
+  border-radius: 10px;
+}
+
+.last-section button {
+  background-color: white;
+  padding: 1rem 2rem;
+  border: none;
+  margin: auto;
+  margin-top: 3rem;
+  display: block;
+  font-family: Sylfaen, sans-serif;
+  font-size: large;
+  cursor: pointer;
+  transition: 200ms;
+}
+.last-section button:hover {
+  transform: scale(1.1);
+  background-color: rgb(211, 211, 211);
+}

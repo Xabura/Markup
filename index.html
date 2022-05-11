@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/main-section.css">
+    <link rel="stylesheet" href="./css/second-section.css">
+    <link rel="stylesheet" href="./css/section-steps.css">
+    <link rel="stylesheet" href="./css/last-section.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="./app.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="./font-family/css/bpg-glaho-web-caps.min.css"
+    />
+    <title>Markup</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./assets/logo-bird.png" class="bird" alt="Logo" />
+        <img src="./assets/logo-text.png" alt="Futurium" />
+      </div>
+      <button id="btn" class="toggle-btn" onclick="toggle()"></button>
+      <div id="headerDiv" class="header-main-div">
+        <div class="top-header-div">
+          <select class="language" name="lang" id="lang">
+            <option value="geo">ქართული</option>
+            <option value="eng">English</option>
+          </select>
+          <div>
+            <p><img src="./assets/phone.png" alt="phone" /> +7 943 534-56-65</p>
+            <p><img src="./assets/search.png" alt="search" /> ჩემი ანგარიში</p>
+            <p>
+              <img src="./assets/profile.png" alt="profile" /> ჩემი ანგარიში
+            </p>
+          </div>
+        </div>
+        <div class="middle-header-div">
+          <p><img src="./assets/calendar.png" alt="icon" /> სალონში ჩაწერა</p>
+          <p><img src="./assets/measure.png" alt="icon" /> აზომვის შეკვეთა</p>
+          <p><img src="./assets/map.png" alt="icon" /> ჩვენი სალონები</p>
+          <p><img src="./assets/broshura.png" alt="icon" /> ბროშურა</p>
+          <p><img src="./assets/phone2.png" alt="icon" /> ზარის შეკვეთა</p>
+          <p>
+            <img src="./assets/shopping-bag.png" alt="icon" /> კალათაში <br />
+            654 986 ₾
+          </p>
+        </div>
+        <ul class="header-ul">
+          <li>სამზარეულო <img src="./assets/arrow.png" /></li>
+          <li>კალკულატორი</li>
+          <li>აქსესუარები და ტექნიკა <img src="./assets/arrow.png" /></li>
+          <li>აქციები</li>
+          <li>ჩვენს შესახებ <img src="./assets/arrow.png" /></li>
+          <li>მყიდველებს <img src="./assets/arrow.png" /></li>
+        </ul>
+      </div>
+    </header>
+    <main id="blur">
+      <section class="main-section">
+        <div>
+          <h1>
+            შეუკვეთეთ თქვენი ოცნების <br />
+            სამზარეულო
+          </h1>
+          <div><button>დანიშნეთ შეხვედრა</button><button>კატალოგი</button></div>
+        </div>
+      </section>
+      
+      <section class="second-section">
+        <div class="navigation-div">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <div class="second-section-title">
+          <h1>სამზარეულოს კატალოგი</h1>
+          <p>
+            თუ გსურთ გამოიყენოთ ყველა ადგილი, შეარჩიეთ შესაბამისი სამზარეულო, ამ
+            ტექსტს არ მიაქციოთ ყურადღება.
+          </p>
+        </div>
+
+        <div class="second-section-types">
+          <div>
+            <div class="second-section-img-div">
+              <div class="hover-div">
+                <button>გადადით კატალოგში</button>
+              </div>
+              <img src="./assets/m1.png" alt="Image" />
+            </div>
+            <h2>თანამედროვე</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+              fugiat voluptas. Harum id distinctio deleniti accusamus deserunt
+              quibusdam cupiditate similique!
+            </p>
+          </div>
+          <div>
+            <div class="second-section-img-div">
+              <div class="hover-div">
+                <button>გადადით კატალოგში</button>
+              </div>
+              <img src="./assets/m2.png" alt="Image" />
+            </div>
+            <h2>ნეოკლასიკური</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+              fugiat voluptas. Harum id distinctio deleniti accusamus deserunt
+              quibusdam cupiditate similique!
+            </p>
+          </div>
+          <div>
+            <div class="second-section-img-div">
+              <div class="hover-div">
+                <button>გადადით კატალოგში</button>
+              </div>
+              <img src="./assets/m3.png" alt="Image" />
+            </div>
+            <h2>კლასიკური</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+              fugiat voluptas. Harum id distinctio deleniti accusamus deserunt
+              quibusdam cupiditate similique!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-steps">
+        <h2><span>4</span> ნაბიჯი თქვენი ოცნების სამზარეულოს შესაკვეთად</h2>
+        <p>
+          თუ გსურთ გამოიყენოთ ყველა ადგილი, შეარჩიეთ ელიტარული დრო, რომ გააკეთოთ
+          დროებითი შრომისუნარიანობა და სამუშაოები.
+        </p>
+        <div>
+          <div class="steps-card">
+            <div class="steps-img-div">
+              <span>1</span>
+              <img src="./assets/p1.png" alt="Image1" />
+            </div>
+            <h3>1/აზომვა</h3>
+            <p>თუ გსურთ გამოიყენოთ ყველა ადგილი, შეარჩიეთ ოები.</p>
+          </div>
+          <div class="steps-card">
+            <div class="steps-img-div">
+              <span>2</span>
+              <img src="./assets/p2.png" alt="Image2" />
+            </div>
+            <h3>2/3D დიზაინი</h3>
+            <p>თუ გსურთ გამოიყენოთ ყველა ადგილი, შეარჩიეთ ოები.</p>
+          </div>
+          <div class="steps-card">
+            <div class="steps-img-div">
+              <span>3</span>
+              <img src="./assets/p3.png" alt="Image3" />
+            </div>
+            <h3>3/ მოტანა</h3>
+            <p>თუ გსურთ გამოიყენოთ ყველა ადგილი, შეარჩიეთ ოები.</p>
+          </div>
+          <div class="steps-card">
+            <div class="steps-img-div">
+              <span>4</span>
+              <img src="./assets/p4.png" alt="Image4" />
+            </div>
+            <h3>4/ მონტაჟი</h3>
+            <p>თუ გსურთ გამოიყენოთ ყველა ადგილი, შეარჩიეთ ოები.</p>
+          </div>
+        </div>
+      </section>
+      <section class="last-section">
+        <div>
+          <h1>დაიწყე შენი პროექტი დღეს</h1>
+          <div class="last-section-div-element"></div>
+          <h1>დაზოგე 40% ფასდაკლებით</h1>
+          <button>გადადით კატალოგში</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <div class="footer-logo-div">
+          <img src="./assets/footer-logo.png" alt="Logo" />
+        </div>
+        <label for="email">ხელი მოაწერეთ ჩვენს გაზეთს</label>
+        <div class="input-div">
+          <input type="text" placeholder="ელ. ფოსტა" />
+          <img src="./assets/plane.png" alt="Send" class="input-button" />
+        </div>
+        <h3>სოციალური</h3>
+        <div class="socials">
+          <div><img src="./assets/facebook.png" alt="facebook" /></div>
+          <div><img src="./assets/twitter.png" alt="twitter" /></div>
+          <div><img src="./assets/youtube.png" alt="youtube" /></div>
+          <div><img src="./assets/pinterest.png" alt="pinterest" /></div>
+        </div>
+        <button>დაგვიკავშირდით</button>
+        <p>Copyright © 2020 - All Rights Reserved</p>
+      </div>
+
+      <ul class="footer-first-ul">
+        <h4>კლიენტების მომსახურება</h4>
+        <li>ხშირად დასმული კითხვები</li>
+        <li>მომხმარებელთა მიმოხილვები</li>
+        <li>ინფორმაცია მიწოდების შესახებ</li>
+        <li>გაუქმებები</li>
+        <li>ინსტალაციის პირობები</li>
+        <li>კაბინეტის გარანტია</li>
+        <li>საჩივრების პოლიტიკა</li>
+      </ul>
+      <ul class="footer-second-ul">
+        <h4>სასარგებლო ინსტრუმენტები</h4>
+        <li>გაზომეთ თქვენი სამზარეულო</li>
+        <li>დანიშნეთ შეხვედრა</li>
+        <li>მოითხოვეთ თქვენი ბროშურა</li>
+        <li>იპოვნეთ შოურუმი</li>
+        <li>ონლაინ დიზაინის ინსტრუმენტი</li>
+        <li>ინსტალაციის სახელმძღვანელო</li>
+        <li>როგორ ვიყიდოთ სამზარეულო</li>
+        <li>ფასების შედარება</li>
+      </ul>
+    </footer>
+  </body>
+</html>
